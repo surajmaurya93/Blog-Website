@@ -10,7 +10,7 @@ Database: MongoDB / MySQL (or whatever you used)
 
 Authentication: JWT / OAuth
 
-Deployment: [Vercel / Netlify / Heroku / Render] (mention if deployed)
+Deployment: (Pending)
 
 
 # Features:
