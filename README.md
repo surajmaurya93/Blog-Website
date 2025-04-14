@@ -14,8 +14,12 @@ Deployment: [Vercel / Netlify / Heroku / Render] (mention if deployed)
 
 
 # Features:
-User registration & login 
+User registration & login
+
 Create, edit, delete, and view blogs
+
 Responsive UI
+
 Secure authentication
+
 RESTful API integration
