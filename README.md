@@ -16,6 +16,8 @@ Deployment: (Pending)
 # Features:
 User registration & login
 
+admin section & user section
+
 Create, edit, delete, and view blogs
 
 Responsive UI
