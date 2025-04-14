@@ -3,9 +3,13 @@ A dynamic full stack blog platform where users can create, read, update, and del
 
 # Tech Stack:
 Frontend: HTML, CSS, JavaScript / React.js (customize this based on what you used)
+
 Backend: Node.js, Express.js
+
 Database: MongoDB / MySQL (or whatever you used)
+
 Authentication: JWT / OAuth
+
 Deployment: [Vercel / Netlify / Heroku / Render] (mention if deployed)
 
 
