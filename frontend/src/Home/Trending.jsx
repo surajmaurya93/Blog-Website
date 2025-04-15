@@ -30,7 +30,7 @@ function Trending() {
       <h1 className=" text-2xl font-semibold mb-4">Trending</h1>
       <Carousel responsive={responsive}>
         {blogs && blogs.length > 0 ? (
-          blogs.slice(0, 6).map((element) => {
+          blogs.slice(0, 8).map((element) => {
             return (
               <div
                 key={element._id}
@@ -41,7 +41,7 @@ function Trending() {
                     <img
                       src={element.blogImage.url}
                       alt="blog"
-                      className="w-full h-56 object-cover rounded-t-lg"
+                      className="w-full h-54 object-cover rounded-t-lg"  // h-56
                     />
                     <div className="absolute top-4 left-4 bg-blue-500 text-white px-3 py-1 rounded-full text-sm">
                       {element.category}

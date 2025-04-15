@@ -29,11 +29,11 @@ function Creator() {
                   <img
                     src={element.photo.url}
                     alt="blog"
-                    className="md:w-56 md:h-56 object-cover border border-black rounded-full items-center "
+                    className="md:w-56 md:h-56 object-cover border border-black rounded-full flex flex-col items-center"
                   />
-                  <div className="text-center md:ml-[-130px]">
+                  <div className="text-center text-2xl md:text-xl md:ml-[-130px]">
                     <p>{element.name}</p>
-                    <p className="text-gray-600 text-xs">{element.role}</p>
+                    <p className="text-gray-600 text-sm">{element.role}</p>
                   </div>
                 </div>
               </div>

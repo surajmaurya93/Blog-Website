@@ -2,8 +2,10 @@ import axios from "axios";
 import React, { useState } from "react";
 import toast from "react-hot-toast";
 import { Link, useNavigate } from "react-router-dom";
+import { useAuth } from "../context/AuthProvider";
 
 function Register() {
+  const { isAuthenticated, setIsAuthenticated, setProfile } = useAuth();
 
   const navigateTo = useNavigate();
 
@@ -42,25 +44,31 @@ function Register() {
         "http://localhost:4001/api/users/register",
         formData,
         {
-          withCredentials:true,
+          withCredentials: true,
           headers: {
             "Content-Type": "multipart/form-data",
           },
         }
       );
       console.log(data);
-      toast.success(data.message || "User Registered Successfully");
+      localStorage.setItem("jwt", data.token); // storing token in localStorage so that if user refreshed the page it will not redirect again in login
+      toast.success(data.message || "User registered successfully");
+      setProfile(data);
+      setIsAuthenticated(true);
       setName("");
       setEmail("");
+      setPhone("");
       setPassword("");
       setRole("");
       setEducation("");
       setPhoto("");
       setPhotoPreview("");
-      navigateTo("/login");
+      navigateTo("/");
     } catch (error) {
       console.log(error);
-      toast.error(error.message || "please fill required fields")
+      toast.error(
+        error.response.data.message || "Please fill the required fields"
+      );
     }
   };
 
