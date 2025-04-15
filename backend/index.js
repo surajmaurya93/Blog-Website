@@ -8,6 +8,7 @@ import fileUpload from "express-fileupload";
 
 import userRoute from "./routes/user.route.js";
 import blogRoute from "./routes/blog.route.js";
+import cors from "cors"
 
 const app = express()
 dotenv.config()
@@ -18,6 +19,13 @@ const MONGO_URL = process.env.MONGO_URI
 // middleware
 app.use(express.json());
 app.use(cookieParser());
+app.use(
+  cors({
+    origin: process.env.FRONTEND_URL,
+    credentials: true,
+    methods: ["GET", "POST", "PUT", "DELETE"],
+  })
+);
 
 app.use(fileUpload({
   useTempFiles: true,
