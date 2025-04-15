@@ -6,11 +6,11 @@ function About() {
   console.log(profile);
   return (
     <div className="container mx-auto my-12 p-4 space-y-9">
-      <h1 className="text-2xl text-gray-900 font-bold mb-6">About Us</h1>
+      <h1 className="text-3xl text-gray-900 font-bold mb-6">About Us</h1>
       <p>
         Hyyyy,{" "}
         <strong className="text-blue-800 font-semibold hover:scale-105 duration-500">
-          {profile?.user?.name}
+        {profile?.user?.name}
         </strong>{" "}
         I'm a Full Stack Developer with a passion for building dynamic, responsive, and user-friendly web applications. I specialize in both front-end and back-end development, creating seamless digital experiences from concept to deployment. This blog website project showcases my skills in full stack development, combining clean UI/UX design with powerful functionality. I love turning ideas into real-world applications and continuously improving my craft through hands-on projects like this one.
       </p>

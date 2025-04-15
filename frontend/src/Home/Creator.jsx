@@ -25,13 +25,13 @@ function Creator() {
           admin.slice(0, 4).map((element) => {
             return (
               <div key={element._id}>
-                <div className="">
+                <div className="flex justify-center items-center flex-col">
                   <img
                     src={element.photo.url}
                     alt="blog"
-                    className="md:w-56 md:h-56 object-cover border border-black rounded-full flex flex-col items-center"
+                    className="md:w-56 md:h-56 w-80 h-80 mb-1.5 object-cover border border-black rounded-full flex flex-col items-center"
                   />
-                  <div className="text-center text-2xl md:text-xl md:ml-[-130px]">
+                  <div className="text-center text-2xl md:text-xl">
                     <p>{element.name}</p>
                     <p className="text-gray-600 text-sm">{element.role}</p>
                   </div>
