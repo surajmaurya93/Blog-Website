@@ -1,17 +1,21 @@
 # Full Stack Blog Website
 A dynamic full stack blog platform where users can create, read, update, and delete blog posts. Built with modern web technologies, this project showcases both frontend and backend integration, user authentication, and responsive design.
 
-# Tech Stack:
-Frontend: HTML, CSS, JavaScript / React.js, Tailwind CSS.
 
-Backend: Node.js, Express.js
+# Used Technologies :- 
 
-Database: MongoDB.
+𝗠𝗼𝗻𝗴𝗼𝗗𝗕 :- It's a NoSQL DB.
 
-Authentication: JWT / OAuth
+𝗘𝘅𝗽𝗿𝗲𝘀𝘀 𝗝𝘀 :- It's a Node Js Framework(Backend)
 
-Postman for API Testing.
+𝗥𝗲𝗮𝗰𝘁 𝗝𝘀 :- It's a JavaScript Library(Frontend)
+                   ● UI Design:- 𝗧𝗮𝗶𝗹𝘄𝗶𝗻𝗱 𝗖𝗦𝗦
+                   
+𝗡𝗼𝗱𝗲 𝗝𝘀 :-  Help us to run Js on Server-side.
 
+JWT / OAuth :- Authentication.
+
+Postman :- For API Testing.
 Deployment: (Pending)
 
 
