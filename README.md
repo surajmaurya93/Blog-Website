@@ -13,7 +13,7 @@ A dynamic full stack blog platform where users can create, read, update, and del
                    
 𝗡𝗼𝗱𝗲 𝗝𝘀 :-  Help us to run Js on Server-side.
 
-JWT / OAuth :- Authentication.
+JWT / OAuth :- For Authentication.
 
 Postman :- For API Testing.
 Deployment: (Pending)
