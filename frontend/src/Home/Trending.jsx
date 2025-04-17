@@ -27,10 +27,10 @@ function Trending() {
   };
   return (
     <div className="container mx-auto">
-      <h1 className="text-2xl font-semibold mb-4">Trending</h1>
+      <h1 className="text-2xl font-semibold mb-4 md:ml-4 ml-5">Trending</h1>
       <Carousel responsive={responsive}>
         {blogs && blogs.length > 0 ? (
-          blogs.slice(0, 8).map((element) => {
+          blogs.slice(6, 14).map((element) => {
             return (
               <div
                 key={element._id}

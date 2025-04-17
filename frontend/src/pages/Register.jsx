@@ -51,7 +51,7 @@ function Register() {
         }
       );
       console.log(data);
-      localStorage.setItem("jwt", data.token); // storing token in localStorage so that if user refreshed the page it will not redirect again in login
+      // localStorage.setItem("jwt", data.token); // storing token in localStorage so that if user refreshed the page it will not redirect again in login
       toast.success(data.message || "User registered successfully");
       setProfile(data);
       setIsAuthenticated(true);
@@ -78,7 +78,7 @@ function Register() {
         <div className="w-full max-w-md bg-white shadow-md rounded-lg p-8">
           <form onSubmit={handleRegister}>
             <div className="font-semibold text-xl items-center text-center">
-              Web<span className="text-blue-500">Blog</span>
+              Blogo<span className="text-blue-500">Sphare</span>
             </div>
             <h1 className="text-xl font-semibold mb-6">Register</h1>
             <select
@@ -152,7 +152,7 @@ function Register() {
             </div>
             <p className="text-center mb-4">
               Already registered?{" "}
-              <Link className="text-blue-600">
+              <Link to={"/login"} className="text-blue-600">
                 Login Now
               </Link>
             </p>

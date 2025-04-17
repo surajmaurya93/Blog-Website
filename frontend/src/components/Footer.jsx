@@ -1,123 +1,151 @@
 import React from "react";
-import { FaGithub } from "react-icons/fa";
-import { BsYoutube } from "react-icons/bs";
-import { FaLinkedin } from "react-icons/fa";
+import { IoBookSharp } from "react-icons/io5";
+import { FaLaptopCode } from "react-icons/fa";
+import { FaHome } from "react-icons/fa";
 
 const Footer = () => {
   return (
     <>
-    <div className="h-[0.2px] bg-gray-400"></div>
-    {/* <hr /> */}
+      <div className="h-[0.2px] bg-gray-300"></div>
+      {/* <hr /> */}
+      <section class="bg-blue-50 pt-7 pb-6">
+        <div class="max-w-4xl mx-auto px-4 text-center">
+          <h2 class="text-2xl sm:text-3xl font-bold text-gray-800 mb-4">
+            Never Miss a Post!
+          </h2>
+          <p class="text-gray-600 mb-6">
+            Join our newsletter to stay updated with the latest insights, tutorials, and trends directly in your inbox.
+          </p>
+          <form class="flex flex-col sm:flex-row justify-center items-center gap-2">
+            <input
+              type="email"
+              placeholder="Enter your email"
+              class="w-full sm:w-1/2 px-4 py-2 rounded-md border border-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-500"
+            />
+            <button
+              type="submit"
+              class="bg-blue-600 text-white px-6 py-2 rounded-md hover:bg-blue-700 transition duration-200"
+            >
+              Subscribe
+            </button>
+          </form>
+        </div>
+      </section>
       <footer className="py-10">
         <div className="container mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           <div className=" text-center md:text-start">
-            <h2 className="text-lg font-semibold mb-4">Products</h2>
+            <h2 className="text-lg font-semibold mb-4">Technology</h2>
             <ul className="space-y-2">
               <li>
-                <a href="#" className="text-gray-400 hover:text-white">
-                  Flutter
+                <a href="#" className="text-gray-400 hover:text-gray-200">
+                  MangoDB
                 </a>
               </li>
               <li>
-                <a href="#" className="text-gray-400 hover:text-white">
-                  React
+                <a href="#" className="text-gray-400 hover:text-gray-200">
+                  Express JS
                 </a>
               </li>
               <li>
-                <a href="#" className="text-gray-400 hover:text-white">
-                  Android
+                <a href="#" className="text-gray-400 hover:text-gray-200">
+                  React JS
                 </a>
               </li>
               <li>
-                <a href="#" className="text-gray-400 hover:text-white">
-                  iOS
+                <a href="#" className="text-gray-400 hover:text-gray-200">
+                  Node JS
                 </a>
               </li>
             </ul>
           </div>
           <div className=" text-center md:text-start">
-            <h2 className="text-lg font-semibold mb-4">Design to code</h2>
+            <h2 className="text-lg font-semibold mb-4">Categories</h2>
             <ul className="space-y-2">
               <li>
-                <a href="#" className="text-gray-400 hover:text-white">
-                  Figma plugin
+                <a href="#" className="text-gray-400 hover:text-gray-200">
+                  Technology
                 </a>
               </li>
               <li>
-                <a href="#" className="text-gray-400 hover:text-white">
-                  Templates
+                <a href="#" className="text-gray-400 hover:text-gray-200">
+                  Entertainment
+                </a>
+              </li>
+              <li>
+                <a href="#" className="text-gray-400 hover:text-gray-200">
+                  Devotinal
+                </a>
+              </li>
+              <li>
+                <a href="#" className="text-gray-400 hover:text-gray-200">
+                  Sports
                 </a>
               </li>
             </ul>
           </div>
 
           <div className=" text-center md:text-start">
-            <h2 className="text-lg font-semibold mb-4">Comparison</h2>
+            <h2 className="text-lg font-semibold mb-4">The Project</h2>
             <ul className="space-y-2">
               <li>
-                <a href="#" className="text-gray-400 hover:text-white">
-                  DhiWise vs Anima
+                <a href="#" className="text-gray-400 hover:text-gray-200">
+                  Home
                 </a>
               </li>
               <li>
-                <a href="#" className="text-gray-400 hover:text-white">
-                  DhiWise vs Appsmith
+                <a href="#" className="text-gray-400 hover:text-gray-200">
+                  Blogs
                 </a>
               </li>
               <li>
-                <a href="#" className="text-gray-400 hover:text-white">
-                  DhiWise vs FlutterFlow
+                <a href="#" className="text-gray-400 hover:text-gray-200">
+                  Creaters
                 </a>
               </li>
               <li>
-                <a href="#" className="text-gray-400 hover:text-white">
-                  DhiWise vs Monday Hero
+                <a href="#" className="text-gray-400 hover:text-gray-200">
+                  About
                 </a>
               </li>
               <li>
-                <a href="#" className="text-gray-400 hover:text-white">
-                  DhiWise vs Retool
+                <a href="#" className="text-gray-400 hover:text-gray-200">
+                  Contact
                 </a>
               </li>
 
               <li>
-                <a href="#" className="text-gray-400 hover:text-white">
-                  DhiWise vs Bubble
-                </a>
-              </li>
-              <li>
-                <a href="#" className="text-gray-400 hover:text-white">
-                  DhiWise vs Figma Dev Mode
+                <a href="#" className="text-gray-400 hover:text-gray-200">
+                  Dashboard
                 </a>
               </li>
             </ul>
           </div>
           <div className=" text-center md:text-start">
-            <h2 className="text-lg font-semibold mb-4">Company</h2>
+            <h2 className="text-lg font-semibold mb-4">Support</h2>
             <ul className="space-y-2">
               <li>
-                <a href="#" className="text-gray-400 hover:text-white">
-                  About Us
+                <a href="#" className="text-gray-400 hover:text-gray-200">
+                  Contact
                 </a>
               </li>
               <li>
-                <a href="#" className="text-gray-400 hover:text-white">
-                  Contact Us
+                <a href="#" className="text-gray-400 hover:text-gray-200">
+                  FAQ
                 </a>
               </li>
               <li>
-                <a href="#" className="text-gray-400 hover:text-white">
-                  Career
-                </a>
-              </li>
-              <li>
-                <a href="#" className="text-gray-400 hover:text-white">
+                <a href="#" className="text-gray-400 hover:text-gray-200">
                   Terms of Service
                 </a>
               </li>
               <li>
-                <a href="#" className="text-gray-400 hover:text-white">
+                <a href="#" className="text-gray-400 hover:text-gray-200">
                   Privacy Policy
+                </a>
+              </li>
+              <li>
+                <a href="#" className="text-gray-400 hover:text-gray-200">
+                  Creater Terms
                 </a>
               </li>
             </ul>
@@ -125,22 +153,22 @@ const Footer = () => {
         </div>
       </footer>
       <div className=" container mx-auto  flex flex-col md:flex-row justify-between items-center">
-        <div className="text-xl font-semibold hidden md:flex">
-          Cilli<span className="text-blue-500 font-bold">Blog</span>
+        <div className="text-[23px] font-semibold hidden md:flex">
+          Blogo<span className="text-blue-500 font-bold">Sphare</span>
         </div>
-        <div className="text-gray-400 text-sm hidden md:flex">
-          <p>&copy; 2024 DhiWise PVT. LTD. All rights reserved</p>
+        <div className="text-gray-400 text-[14px] hidden md:flex">
+          <p>&copy; 2025 Suraj Maurya. All rights reserved</p>
         </div>
         <div className="mt-4 md:mt-0 flex space-x-4">
           <a href="#">
-            <FaGithub className="h-6" />
+            <FaLaptopCode size={22} />
           </a>
           <a href="#">
-            <BsYoutube className="h-6" />
+            <IoBookSharp size={22} />
           </a>
 
           <a href="#">
-            <FaLinkedin className="h-6" />
+            <FaHome size={22} />
           </a>
         </div>
       </div>
